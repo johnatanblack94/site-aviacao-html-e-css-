@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #e3e3e3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+    
+header .btn-contato button, .hero-site button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0.1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+/* ESTILO DO HEADER */
+
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo img{
+    max-width: 40px;
+
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+
+}
+
+header .menu-desktop nav ul li{
+   display: inline-block;
+   margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    text-decoration: none;
+    color: rgb(129, 126, 126);
+    display: inline-block;
+    transition: .2s;
+    font-size: 15px;
+}
+
+header .btn-contato button{
+    width: 140px;   
+    height: 50px;
+
+}
+
+
+.menu-desktop nav ul li a:hover{
+    transform: scale(1.05);
+    color: white;
+
+}
+
+header .btn-contato button:hover , .hero-site button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/* ESTILO DO HERO */
+
+section.hero-site{
+    height: 98vh;
+    background-image: url(imagens/bg-inicio-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-site .interface{
+    display: flex;  
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+    
+}
+
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 600;
+ 
+}
+
+.hero-site .txt-hero p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+
+.hero-site .txt-hero p span{
+    display: block;
+}
+
+
+.hero-site button{
+    width: 220px;
+    height: 60px;   
+    font-size: 20px;
+}
+
+/* ESTILO DAS VANTANGES  */
+
+
+.section.vantagens{
+    padding: 80px 0;
+
+}
+
+.vantagens .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+
+.vantagens .itens-container .img-itens img{
+    max-width: 480px;
+}
+
+
+.vantagens .itens-container .txt-itens h3{
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.vantagens .itens-container .txt-itens h3 span{
+    font-weight: 300;
+}
+
+/* ESTILO DOS BOTÕES DE CONTATO */
+
+section.contato{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.txt-contato , .icons-contato{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+
+.contato .txt-contato h3{
+    font-size: 2.5em;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contato .txt-contato h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.contato .icons-contato a{
+    text-decoration: none;
+
+}
+
+.contato .icons-contato button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    padding: 0 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.contato .icons-contato button i{
+    font-size: 23px;
+}
+
+.contato .icons-contato button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.contato .icons-contato button p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
